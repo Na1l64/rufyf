@@ -3,7 +3,8 @@ class Animal:
     name = "Lion"
     age = 100
 
-
+    def start(self):
+        print("RRRRRRRRAAAAAAAARRRR")
     __count = 0
     def __init__(self):
         Animal.__count += 1
