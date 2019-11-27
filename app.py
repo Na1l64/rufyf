@@ -1,6 +1,8 @@
 class Animal:
 
-    name = Lion
+    name = "Lion"
+    age = 100
+
 
     __count = 0
     def __init__(self):
