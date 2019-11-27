@@ -4,7 +4,9 @@ class Animal:
     age = 100
 
     def start(self):
-        print("RRRRRRRRAAAAAAAARRRR")
+        return "RRRRRRRRAAAAAAAARRRR"
+    def slip(self):
+        return "I go to slip"
     __count = 0
     def __init__(self):
         Animal.__count += 1
