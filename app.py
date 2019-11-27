@@ -1,4 +1,7 @@
 class Animal:
+
+    name = Lion
+
     __count = 0
     def __init__(self):
         Animal.__count += 1
