@@ -5,3 +5,9 @@ class Animal:
     def __del__(self):
         Animal.count -= 1
 
+a = B()
+b = B()
+return"B.count"
+del a
+return"B.count"
+
