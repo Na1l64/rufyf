@@ -1,13 +1,12 @@
 class Animal:
-    count = 0
+    __count = 0
     def __init__(self):
-        Animal.count += 1
+        Animal.__count += 1
     def __del__(self):
-        Animal.count -= 1
+        Animal.__count -= 1
+    def seqrurity(self):
+        return Animal.__count
 
-a = B()
-b = B()
-return"B.count"
-del a
-return"B.count"
-
+a = Animal()
+b = Animal()
+print (Animal.seqrurity())
