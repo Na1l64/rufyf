@@ -5,8 +5,8 @@ class Animal:
 
     def start(self):
         return "RRRRRRRRAAAAAAAARRRR"
-    def slip(self):
-        return "I go to slip"
+    def sleep(self):
+        return "I go to sleep"
     __count = 0
     def __init__(self):
         Animal.__count += 1
